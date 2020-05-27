@@ -30,4 +30,5 @@ codeunit 50100 "Rewards Install"
         Reward."Discount Percentage" := Discount;
         Reward.Insert();
     end;
+
 }

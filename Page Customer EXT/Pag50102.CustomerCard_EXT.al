@@ -10,9 +10,9 @@ pageextension 50102 "Customer Card_Ext" extends "Customer Card"
 
                 ApplicationArea = All;
             }
-
         }
-
-
     }
+
 }
+
+

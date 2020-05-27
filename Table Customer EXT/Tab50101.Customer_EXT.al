@@ -11,9 +11,9 @@ tableextension 50101 "Customer_EXT" extends "Customer"
             trigger OnValidate();
             begin
 
-                if (Rec."Reward ID" <> xRec."Reward ID") AND (Rec.Blocked <> Blocked::" ") then begin
+                if (Rec.Blocked <> Blocked::" ") then begin
 
-                    Error('Cannot update the rewards status of a blocked customer');
+                    Error('Não pode atualizar dados num cliente bloqueado');
                 end;
 
             end;
